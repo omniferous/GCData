@@ -1,7 +1,9 @@
 # GCData
 Peer reviewed project for Getting and Cleaning Data
 
-Before the running the script you will need to download the data from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+This script run_analysis.R manipulates datafiles containing measurements taken on people wearing a smartphone. The script collates all the data taken into a single data set then extracts the mean and std measurements. The output is the mean calculated on the extracted measurements.
+
+Before running the script you will need to download the data from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Place the script in the directory that contains the subdirectory UCI HAR Dataset which is created when you unpack the zip file. If you have renamed the subdirectory or any of the files from the zipped file the script will not work. The paths/files that the script uses are listed below:
 
