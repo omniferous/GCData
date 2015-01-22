@@ -1,7 +1,7 @@
 # GCData
 Peer reviewed project for Getting and Cleaning Data
 
-This script run_analysis.R manipulates datafiles containing measurements taken on people wearing a smartphone. The script collates all the data taken into a single data set then extracts the mean and std measurements. The output is the mean calculated on the extracted measurements.
+This script, run_analysis.R, manipulates datafiles containing measurements taken on people wearing a smartphone. The script collates all the data taken into a single data set then extracts the mean and std measurements. The output is the mean calculated on the extracted measurements.
 
 Before running the script you will need to download the data from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
