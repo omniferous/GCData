@@ -15,3 +15,7 @@ Place the script in the directory that contains the subdirectory UCI HAR Dataset
 
 The scipt makes use of the following libraries - dplyr, tidyr, data.table. You will need to install these yourself prior to running the script by making use of the install.packages() function in RStudio. If you are unsure how this function works access help via ?install.packages. The script will load the libraries so you won't have to but they will need to be installed first.
 
+The output file result.txt will be placed in the same directory as the script. 
+
+For details of the code see the comments in the script.
+For details of the data see the Codebook.md file in this repo https://github.com/omniferous/GCData/.
