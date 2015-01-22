@@ -23,3 +23,5 @@ Steps to construct the data set (done by the script):
 1. Vertically join y_test to x_test. 
 2. Vertically join subject_test to the output of step 1.
 3. Repeat steps 1 and 2 for the train data.
+4. Horizontally join the test and train data.
+5. 
