@@ -24,4 +24,9 @@ Steps to construct the data set (done by the script):
 2. Vertically join subject_test to the output of step 1.
 3. Repeat steps 1 and 2 for the train data.
 4. Horizontally join the test and train data.
-5. 
+5. Extract all variables that contain the words "mean" or "std" and store with subject ID and activity.
+6. Calculate the mean of each variable (aside from subject ID and activity) producing a table containing results for each subject completing each activity (s * a * var count = 30 * 6 * 86)
+
+The variables in results.txt are listed below with brief descriptions. Note that all variables (aside from Subject.ID and Activity) are means taken for the subject carrying out the activity.
+
+
